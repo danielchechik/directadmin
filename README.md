@@ -11,8 +11,9 @@ I want to prevent all users from changing DNS configuration (dnscontrol=OFF)
 How to use:
 
 It's case senstive so be carefull
-./set_permissions.sh [parameter as apear in the configuration file] [current value] [new value]
+
+./set_user_permissions.sh [parameter as apear in the configuration file] [current value] [new value]
 
 example:
-./set_permissions.sh dnscontrol ON OFF
+./set_user_permissions.sh dnscontrol ON OFF
  
